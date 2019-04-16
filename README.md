@@ -34,6 +34,7 @@ Credits
   for testing out / fixing the build.
 * Thanks to `ryoon@` whose patches for `www/firefox` helped make cliqz build and
   run under NetBSD.
+* Thanks to `gdt@` for reviewing the package.
 
 License
 -------
