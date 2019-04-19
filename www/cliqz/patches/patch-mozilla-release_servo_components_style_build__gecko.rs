@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_servo_components_style_build__gecko.rs,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 * Fix build with __uint32_t etc. not found errors on NetBSD/amd64 8.99.2
 

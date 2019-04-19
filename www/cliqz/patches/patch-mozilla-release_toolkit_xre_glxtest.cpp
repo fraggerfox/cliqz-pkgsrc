@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_toolkit_xre_glxtest.cpp,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 Fix libGL filename on NetBSD,
 see https://bugzilla.mozilla.org/show_bug.cgi?id=1180498

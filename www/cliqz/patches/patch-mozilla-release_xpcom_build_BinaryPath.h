@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_xpcom_build_BinaryPath.h,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 * Fix build under netbsd-7, PR pkg/52956
 
@@ -35,7 +35,7 @@ Original patch from ryoon, imported from www/firefox
 +#elif (defined(__NetBSD__) && !defined(KERN_PROC_PATHNAME))
 +  static nsresult Get(char aResult[MAXPATHLEN])
 +  {
-+    char path[] = "/usr/pkg/lib/cliqz/cliqz";
++    char path[] = "@PREFIX@/lib/cliqz/cliqz";
 +    sprintf(aResult, "%s", path);
 +    return NS_OK;
 +  }

@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_ipc_chromium_src_base_platform__thread__posix.cc,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 * Support NetBSD
 * Support Solaris (we can't rely on pthread_setname_np so ignore it).

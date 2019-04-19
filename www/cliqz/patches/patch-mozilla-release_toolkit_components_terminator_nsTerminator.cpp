@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_toolkit_components_terminator_nsTerminator.cpp,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 * Fix segfault on exit under NetBSD
 

@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_gfx_angle_checkout_src_common_third__party_smhasher_src_PMurHash.cpp,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 Fix build where _LITTLE_ENDIAN is not an integer.
 

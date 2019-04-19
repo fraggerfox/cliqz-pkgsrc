@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_ipc_glue_GeckoChildProcessHost.cpp,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 * Support Solaris
 * Fix NetBSD linking

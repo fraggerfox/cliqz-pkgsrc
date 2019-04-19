@@ -1,4 +1,4 @@
-# $NetBSD$
+# $NetBSD: Makefile,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 DISTNAME=	cliqz-1.26.3
 CATEGORIES=	www

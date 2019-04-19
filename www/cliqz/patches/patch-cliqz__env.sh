@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-cliqz__env.sh,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 Commented out the various wget(1) to prevent http traffic during build
 phase.

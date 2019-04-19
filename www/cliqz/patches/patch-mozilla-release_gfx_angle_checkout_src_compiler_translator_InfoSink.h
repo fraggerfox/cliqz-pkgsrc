@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_gfx_angle_checkout_src_compiler_translator_InfoSink.h,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 * isinf/isnan in make.h is defined as macro. Use non-macro version
   to fix build.

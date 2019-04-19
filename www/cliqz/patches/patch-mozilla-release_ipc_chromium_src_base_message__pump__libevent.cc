@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_ipc_chromium_src_base_message__pump__libevent.cc,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 Allow older libevent
 

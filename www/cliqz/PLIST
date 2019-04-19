@@ -1,4 +1,4 @@
-@comment $NetBSD$
+@comment $NetBSD: PLIST,v 1.1 2019/04/19 14:02:03 fox Exp $
 bin/cliqz
 lib/cliqz/actors/AudioPlaybackChild.jsm
 lib/cliqz/actors/AutoplayChild.jsm

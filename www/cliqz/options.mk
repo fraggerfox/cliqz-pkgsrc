@@ -1,4 +1,4 @@
-# $NetBSD$
+# $NetBSD: options.mk,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 PKG_OPTIONS_VAR=	PKG_OPTIONS.cliqz
 

@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_dom_base_nsAttrName.h,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 cbindgen gets confused by NetBSD's types being macros too
 https://mail-index.netbsd.org/tech-pkg/2018/10/25/msg020395.html

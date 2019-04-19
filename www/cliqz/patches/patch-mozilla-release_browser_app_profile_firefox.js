@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_browser_app_profile_firefox.js,v 1.1 2019/04/19 14:02:03 fox Exp $
 
 1. Pickup LANG/LC_MESSAGE from environment.
 2. Disable multiprocess window support. Refer PR 53273
