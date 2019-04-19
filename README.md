@@ -1,9 +1,9 @@
 cliqz-pkgsrc
 ============
 
-NetBSD pkgsrc script for Cliqz Browser.
+NetBSD [pkgsrc][4] script for Cliqz Browser.
 
-You can find more information about Cliqz Brower [here][1]
+You can find more information about Cliqz Browser [here][1]
 
 Installation
 ------------
@@ -44,4 +44,4 @@ BSD 2-clause. See LICENSE.
 [1]: http://cliqz.com/
 [2]: https://github.com/cliqz-oss/browser-f/
 [3]: https://cliqz.com/en/
-
+[4]: http://pkgsrc.se/www/cliqz
