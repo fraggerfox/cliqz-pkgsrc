@@ -1,4 +1,4 @@
-$NetBSD: patch-mozilla-release_browser_config_cliqz.mozconfig,v 1.1 2019/04/19 14:02:03 fox Exp $
+$NetBSD: patch-mozilla-release_browser_config_cliqz.mozconfig,v 1.2 2019/06/07 01:19:07 fox Exp $
 
 Remove the crash reporter option, this is now handled from within
 mozilla-common.mk

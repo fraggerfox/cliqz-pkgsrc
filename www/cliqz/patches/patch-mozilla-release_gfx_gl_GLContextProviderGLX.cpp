@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_gfx_gl_GLContextProviderGLX.cpp,v 1.1 2019/06/07 01:19:07 fox Exp $
 
 NetBSD doesn't ship libGL.so.1 due to a major bump. Look for the unversioned
 name.
