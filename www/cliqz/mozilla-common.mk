@@ -83,10 +83,10 @@ SUBST_VARS.prefix+=		PREFIX
 BUILDLINK_API_DEPENDS.libevent+=       libevent>=1.1
 .include "../../devel/libevent/buildlink3.mk"
 .include "../../devel/libffi/buildlink3.mk"
-BUILDLINK_API_DEPENDS.nspr+=   nspr>=4.19
+BUILDLINK_API_DEPENDS.nspr+=   nspr>=4.21
 .include "../../devel/nspr/buildlink3.mk"
 .include "../../textproc/icu/buildlink3.mk"
-BUILDLINK_API_DEPENDS.nss+=     nss>=3.38
+BUILDLINK_API_DEPENDS.nss+=     nss>=3.44.1
 .include "../../devel/nss/buildlink3.mk"
 .include "../../devel/zlib/buildlink3.mk"
 .include "../../graphics/MesaLib/buildlink3.mk"

@@ -5,11 +5,11 @@ $NetBSD: patch-mozilla-release_browser_app_profile_firefox.js,v 1.1 2019/04/19 1
 
 Original patch from ryoon, imported from www/firefox
 
---- mozilla-release/browser/app/profile/firefox.js.orig	2018-11-16 08:40:07.000000000 +0000
+--- mozilla-release/browser/app/profile/firefox.js.orig	2019-07-06 01:48:29.000000000 +0000
 +++ mozilla-release/browser/app/profile/firefox.js
-@@ -1770,6 +1770,15 @@ pref("toolkit.coverage.endpoint.base", "
- pref("prio.enabled", true);
- #endif
+@@ -1865,6 +1865,15 @@ pref("prio.publicKeyB", "26E6674E65425B8
+ pref("toolkit.coverage.enabled", false);
+ pref("toolkit.coverage.endpoint.base", "https://coverage.mozilla.org");
  
 +// Select UI locale from LANG/LC_MESSAGE environmental variables
 +pref("intl.locale.requested", "");
