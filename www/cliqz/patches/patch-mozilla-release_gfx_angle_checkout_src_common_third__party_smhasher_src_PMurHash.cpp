@@ -4,8 +4,8 @@ Fix build where _LITTLE_ENDIAN is not an integer.
 
 Original patch from ryoon, imported from www/firefox
 
---- gfx/angle/checkout/src/common/third_party/smhasher/src/PMurHash.cpp.orig	2019-07-06 01:48:31.000000000 +0000
-+++ gfx/angle/checkout/src/common/third_party/smhasher/src/PMurHash.cpp
+--- mozilla-release/gfx/angle/checkout/src/common/third_party/smhasher/src/PMurHash.cpp.orig	2019-07-06 01:48:31.000000000 +0000
++++ mozilla-release/gfx/angle/checkout/src/common/third_party/smhasher/src/PMurHash.cpp
 @@ -91,8 +91,8 @@ on big endian machines, or a byte-by-byt
  /* gcc 'may' define __LITTLE_ENDIAN__ or __BIG_ENDIAN__ to 1 (Note the trailing __),
   * or even _LITTLE_ENDIAN or _BIG_ENDIAN (Note the single _ prefix) */
