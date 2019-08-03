@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_toolkit_modules_subprocess_subprocess__shared__unix.js,v 1.1 2019/07/31 01:35:27 fox Exp $
 
 Fix broken native messaging on NetBSD and possibly other BSDs too:
 https://bugzilla.mozilla.org/show_bug.cgi?id=1543602
