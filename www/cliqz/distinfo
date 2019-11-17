@@ -38,4 +38,4 @@ SHA1 (patch-mozilla-release_toolkit_components_terminator_nsTerminator.cpp) = c4
 SHA1 (patch-mozilla-release_toolkit_modules_subprocess_subprocess__shared__unix.js) = d72e47521ed87cf00a01981de15d8512fc2b43b8
 SHA1 (patch-mozilla-release_xpcom_base_nscore.h) = c1a72f0ea63aacde6dbe321031e82aec99d4350f
 SHA1 (patch-mozilla-release_xpcom_build_BinaryPath.h) = a351eed0681872d50193a0232e61752c223026d1
-SHA1 (patch-rust-1.39.0) = b82cd5cb8934b0ff0c24d15d99dc8d4b06dc2bcb
+SHA1 (patch-rust-1.39.0) = f31aea925c80d47c95614c90aeaa6d798afdb590

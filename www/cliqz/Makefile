@@ -4,7 +4,6 @@ DISTNAME=	cliqz-1.30.0
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=cliqz-oss/}
 GITHUB_PROJECT=	browser-f
-GITHUB_TAG=	${PKGVERSION_NOREV}
 DISTFILES=	adult-domains.bin \
 		cliqz@cliqz.com.xpi \
 		https-everywhere@cliqz.com.xpi \
@@ -49,7 +48,7 @@ TOOL_DEPENDS+=			nodejs-[0-9]*:../../lang/nodejs
 BUILD_DEPENDS+=			yasm>=1.1:../../devel/yasm
 BUILD_DEPENDS+=			nasm-[0-9]*:../../devel/nasm
 
-WRKSRC=			${WRKDIR}/${GITHUB_PROJECT}-${GITHUB_TAG}
+WRKSRC=			${WRKDIR}/${GITHUB_PROJECT}-${PKGVERSION_NOREV}
 
 CLIQZ_ICON=		cliqz.png
 CLIQZ_ICON_SRC=		${WRKSRC}/mozilla-release/browser/branding/cliqz/default48.png

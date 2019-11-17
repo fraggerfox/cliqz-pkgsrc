@@ -1,5 +1,9 @@
 $NetBSD$
 
+Patch taken from www/firefox
+
+Needed to build with rust 1.39. Helps fix broken builds for now.
+
 From 9696bc1795c75b1b527e2b70d9baf3ced9e3c154 Mon Sep 17 00:00:00 2001
 From: =?UTF-8?q?Emilio=20Cobos=20=C3=81lvarez?= <emilio@crisal.io>
 Date: Mon, 23 Sep 2019 17:54:37 +0200
@@ -8,8 +12,6 @@ Subject: [PATCH] ir: Make Ord and PartialOrd implementations agree.
 See https://github.com/rust-lang/rust/issues/64710.
 
 Bogus implementations were introduced in 230545e7c, d3e39dc62, and 379bb1663.
-
-Patch taken from www/firefox
 
 --- mozilla-release/third_party/rust/bindgen/src/ir/analysis/has_vtable.rs.orig	2019-10-30 17:36:44 UTC
 +++ mozilla-release/third_party/rust/bindgen/src/ir/analysis/has_vtable.rs
