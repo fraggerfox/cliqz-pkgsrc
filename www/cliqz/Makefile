@@ -4,8 +4,7 @@ DISTNAME=	cliqz-1.30.0
 CATEGORIES=	www
 MASTER_SITES=	${MASTER_SITE_GITHUB:=cliqz-oss/}
 GITHUB_PROJECT=	browser-f
-# The upstream tagged the version incorrectly.
-GITHUB_TAG=	1.30.1
+GITHUB_TAG=	${PKGVERSION_NOREV}
 DISTFILES=	adult-domains.bin \
 		cliqz@cliqz.com.xpi \
 		https-everywhere@cliqz.com.xpi \
@@ -23,11 +22,11 @@ CLIQZ_PLUGIN_SUFX=	@cliqz.com.xpi
 SITES.adult-domains.bin= \
 	https://s3.amazonaws.com/cdn.cliqz.com/browser-f/APT/
 SITES.cliqz${CLIQZ_PLUGIN_SUFX}= \
-	https://repository.cliqz.com/dist/${CLIQZ_CHANNEL}/1.30.0/${CLIQZ_LAST_BUILD_ID}/
+	https://repository.cliqz.com/dist/${CLIQZ_CHANNEL}/${PKGVERSION_NOREV}/${CLIQZ_LAST_BUILD_ID}/
 SITES.https-everywhere${CLIQZ_PLUGIN_SUFX}= \
-	https://repository.cliqz.com/dist/${CLIQZ_CHANNEL}/1.30.0/${CLIQZ_LAST_BUILD_ID}/
+	https://repository.cliqz.com/dist/${CLIQZ_CHANNEL}/${PKGVERSION_NOREV}/${CLIQZ_LAST_BUILD_ID}/
 SITES.gdprtool${CLIQZ_PLUGIN_SUFX}= \
-	https://repository.cliqz.com/dist/${CLIQZ_CHANNEL}/1.30.0/${CLIQZ_LAST_BUILD_ID}/
+	https://repository.cliqz.com/dist/${CLIQZ_CHANNEL}/${PKGVERSION_NOREV}/${CLIQZ_LAST_BUILD_ID}/
 
 EXTRACT_USING=	bsdtar
 EXTRACT_ONLY=	${DISTNAME}${EXTRACT_SUFX}
