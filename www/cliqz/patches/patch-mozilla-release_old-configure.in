@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_old-configure.in,v 1.1 2020/01/22 10:36:24 fox Exp $
 
 * Include include/nss/nss for workaround for neqo-crypto 0.1.6 of firefox-72.0
 

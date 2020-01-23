@@ -1,4 +1,4 @@
-$NetBSD: patch-third__party_rust_libc_src_unix_bsd_netbsdlike_netbsd_mod.rs,v 1.3 2020/01/09 15:06:29 ryoon Exp $
+$NetBSD: patch-mozilla-release_third__party_rust_libc_src_unix_bsd_netbsdlike_netbsd_mod.rs,v 1.1 2020/01/22 10:36:24 fox Exp $
 
 Based on: https://bugzilla.mozilla.org/show_bug.cgi?id=1594342
 
