@@ -1,4 +1,4 @@
-$NetBSD: distinfo,v 1.20 2020/01/23 08:47:26 fox Exp $
+$NetBSD: distinfo,v 1.21 2020/02/23 00:10:40 fox Exp $
 
 SHA1 (cliqz-1.33.0/adult-domains.bin) = 39f8b7a881e70828fdb411eefd5a70540a3699bd
 RMD160 (cliqz-1.33.0/adult-domains.bin) = a41b8d15df385dbce6904f184552eb542161ce54

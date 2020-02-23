@@ -1,4 +1,4 @@
-$NetBSD: patch-mozilla-release_config_rules.mk,v 1.2 2019/09/29 11:28:05 fox Exp $
+$NetBSD: patch-mozilla-release_config_rules.mk,v 1.3 2020/02/23 00:10:41 fox Exp $
 
 Commented out the various wget(1) to prevent http traffic during build
 phase.
