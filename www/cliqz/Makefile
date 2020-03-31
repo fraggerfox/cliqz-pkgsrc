@@ -44,7 +44,7 @@ USE_LANGUAGES+=	c99 gnu++14
 # https://firefox-source-docs.mozilla.org/build/buildsystem/python.html
 PYTHON_VERSIONS_ACCEPTED=	27
 PYTHON_FOR_BUILD_ONLY=		tool
-TOOL_DEPENDS+=			cbindgen>=0.12.0:../../devel/cbindgen
+TOOL_DEPENDS+=			cbindgen>=0.13.0:../../devel/cbindgen
 TOOL_DEPENDS+=			nodejs-[0-9]*:../../lang/nodejs
 TOOL_DEPENDS+=			${PYPKGPREFIX}-sqlite3-[0-9]*:../../databases/py-sqlite3
 
@@ -145,8 +145,8 @@ post-install:
 
 .include "../../lang/python/pyversion.mk"
 .include "../../mk/compiler.mk"
-PKG_CC=		clang
-PKG_CXX=	clang++
+PKG_CC=		${PREFIX}/bin/clang
+PKG_CXX=	${PREFIX}/bin/clang++
 BUILDLINK_DEPMETHOD.clang=     build
 BUILDLINK_API_DEPENDS.clang+=  clang>=6.0.1nb1
 .include "../../lang/clang/buildlink3.mk"
