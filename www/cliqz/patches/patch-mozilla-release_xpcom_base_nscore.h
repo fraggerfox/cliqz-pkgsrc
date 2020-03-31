@@ -2,7 +2,7 @@ $NetBSD: patch-mozilla-release_xpcom_base_nscore.h,v 1.1 2019/04/19 14:02:03 fox
 
 * Support llvm/clang
 
-Original patch from ryoon, imported from www/firefox
+Imported from www/firefox
 
 --- mozilla-release/xpcom/base/nscore.h.orig	2018-11-16 08:40:07.000000000 +0000
 +++ mozilla-release/xpcom/base/nscore.h
