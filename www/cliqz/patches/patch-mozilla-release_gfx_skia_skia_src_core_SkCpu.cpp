@@ -1,4 +1,4 @@
-$NetBSD: patch-gfx_skia_skia_src_core_SkCpu.cpp,v 1.1 2019/03/05 01:24:21 rin Exp $
+$NetBSD: patch-mozilla-release_gfx_skia_skia_src_core_SkCpu.cpp,v 1.1 2020/03/31 15:40:54 fox Exp $
 
 NetBSD/aarch64 doesn't have <sys/auxv.h>.
 

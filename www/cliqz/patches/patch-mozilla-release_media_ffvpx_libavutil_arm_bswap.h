@@ -1,4 +1,4 @@
-$NetBSD: patch-media_ffvpx_libavutil_arm_bswap.h,v 1.1 2019/11/27 15:31:09 jmcneill Exp $
+$NetBSD: patch-mozilla-release_media_ffvpx_libavutil_arm_bswap.h,v 1.1 2020/03/31 15:40:54 fox Exp $
 
 Fix NetBSD aarch64 build.
 
