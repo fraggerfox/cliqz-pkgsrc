@@ -1,4 +1,4 @@
-$NetBSD: patch-browser_components_BrowserGlue.jsm,v 1.1 2020/04/09 14:01:26 ryoon Exp $
+$NetBSD: patch-mozilla-release_browser_components_BrowserGlue.jsm,v 1.1 2020/04/18 07:58:36 fox Exp $
 
 * Silence Service.profiler errors on Tier3 after bug 1613390
 

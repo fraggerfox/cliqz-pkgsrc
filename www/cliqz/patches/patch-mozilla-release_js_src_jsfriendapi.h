@@ -1,4 +1,4 @@
-$NetBSD: patch-js_src_jsfriendapi.h,v 1.1 2020/04/09 14:01:26 ryoon Exp $
+$NetBSD: patch-mozilla-release_js_src_jsfriendapi.h,v 1.1 2020/04/18 07:58:36 fox Exp $
 
 * Fix va_list error.
 

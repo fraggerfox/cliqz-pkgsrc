@@ -1,4 +1,4 @@
-$NetBSD: patch-config_gcc-stl-wrapper.template.h,v 1.2 2020/04/09 14:01:26 ryoon Exp $
+$NetBSD: patch-mozilla-release_config_gcc-stl-wrapper.template.h,v 1.2 2020/04/18 07:58:36 fox Exp $
 
 Taken from www/firefox
 

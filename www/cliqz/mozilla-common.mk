@@ -1,4 +1,4 @@
-# $NetBSD: mozilla-common.mk,v 1.9 2020/03/31 15:40:54 fox Exp $
+# $NetBSD: mozilla-common.mk,v 1.10 2020/04/18 07:58:36 fox Exp $
 #
 # Common Makefile fragment for mozilla packages based on gecko 2.0.
 # derived from www/firefox

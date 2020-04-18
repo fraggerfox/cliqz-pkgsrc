@@ -1,4 +1,4 @@
-$NetBSD$
+$NetBSD: patch-mozilla-release_toolkit_mozapps_installer_packager.mk,v 1.2 2020/04/18 07:58:36 fox Exp $
 
 * Symbolic link to lib/firefox/firefox causes 'Couldn't load XPCOM.' error.
   (taken from www/firefox)
