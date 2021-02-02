@@ -5,6 +5,8 @@ NetBSD [pkgsrc][4] script for Cliqz Browser.
 
 You can find more information about Cliqz Browser [here][1]
 
+**NOTE: This port has been [deprectated][5] and removed from the pkgsrc tree.**
+
 Installation
 ------------
 
@@ -45,3 +47,4 @@ BSD 2-clause. See LICENSE.
 [2]: https://github.com/cliqz-oss/browser-f/
 [3]: https://cliqz.com/en/
 [4]: http://pkgsrc.se/www/cliqz
+[5]: https://cliqz.com/en/magazine/farewell-from-cliqz
